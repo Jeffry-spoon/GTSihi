@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,6 +24,9 @@ Route::get('TentangKami' , function(){
 Route::get('Edukasi' , function(){
     return view('edukasi');
 })->name('edukasi');
+
+// socialite routes
+Route::get('sign-in-google', [UserController::class, 'google'])->name('user.login.google');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

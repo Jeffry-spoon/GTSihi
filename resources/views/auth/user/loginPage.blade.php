@@ -15,7 +15,7 @@
             <h2 class="title">Selamat datang</h2>
 
             <p>
-              <a class="btn btn-border btn-google-signup" href="#"> <img src="{{ asset('img/ic_google.svg') }}" class="icon" alt="" /> Masuk melalui  google </a>
+              <a class="btn btn-border btn-google-signup" href="{{ route('user.login.google') }}"> <img src="{{ asset('img/ic_google.svg') }}" class="icon" alt="" /> Masuk melalui  google </a>
             </p>
           </form>
         </div>
