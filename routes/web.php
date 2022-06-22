@@ -15,4 +15,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
+
+Route::get('TentangKami' , function(){
+    return view('tentangKami');
+})->name('tentang_kami');
+
+Route::get('Edukasi' , function(){
+    return view('edukasi');
+})->name('edukasi');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
