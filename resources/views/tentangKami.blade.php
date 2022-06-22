@@ -7,7 +7,7 @@
 
         <article class="postcard dark blue">
           <a class="postcard__img_link" href="#">
-            <img class="postcard__img" src="assets/img/Eunike.png" alt="Image Title" />
+            <img class="postcard__img" src="{{ asset('img/Eunike.png') }}" alt="Image Title" />
           </a>
           <div class="postcard__text">
             <h1 class="postcard__title blue"><a href="#">Eunike Holy Imanuella</a></h1>
@@ -37,7 +37,7 @@
         </article>
         <article class="postcard dark red">
           <a class="postcard__img_link" href="#">
-            <img class="postcard__img" src="assets/img/Jeffry.png" alt="Image Title" />
+            <img class="postcard__img" src="{{ asset('img/Jeffry.png') }}" alt="Image Title" />
           </a>
           <div class="postcard__text">
             <h1 class="postcard__title red"><a href="#">Jeffry</a></h1>
@@ -61,7 +61,7 @@
         </article>
         <article class="postcard dark green">
           <a class="postcard__img_link" href="#">
-            <img class="postcard__img" src="assets/img/Nathan.png" alt="Image Title" />
+            <img class="postcard__img" src="{{ asset('img/Nathan.png') }}" alt="Image Title" />
           </a>
           <div class="postcard__text">
             <h1 class="postcard__title green"><a href="v_moderna.html">Nathan Septian</a></h1>
