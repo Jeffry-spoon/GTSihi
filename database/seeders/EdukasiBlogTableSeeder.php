@@ -27,7 +27,7 @@ class EdukasiBlogTableSeeder extends Seeder
 
            Sampah industri atau sering disebut limbah pabrik, biasanya sampah ini dibuang dengan tidak hati-hati dan dapat membawa dampak buruk ke lingkungan dan manusia yang disekitarnya karena dapat membuat lingkungan tercemar dan merusak ekosistem di sekitarnya. Sampah Konsumsi hampir sama dengan sampah manusia namun sampah ini ada beberapa yang berasal dari fast food dan pabrik makanan.
            ',
-            'picture' => 'img/testPicture.png',
+            'picture' => 'testPicture.png',
             'created_at' => date('Y-m-d H:i:s', time()),
             'updated_at' => date('Y-m-d H:i:s', time())
         ]
