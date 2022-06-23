@@ -189,6 +189,18 @@
                 </div>
               </div>
         </div>
+        <div class="col-lg-4 col-md-6 col-12 swiper-slide" >
+             <div class="card " >
+              <img src="{{ asset('img/card-3.png') }}" class="card-img-top" alt="edukasi">
+                <div class="card-body">
+                 <h5 class="card-title mt-2"> Berdasarkan Bentuknya</h5>
+                  <p class="card-text" >
+                    Sampah padat merupakan segala bahan buangan selain sampah cair dan polusi udara, sampah padat dapat berupa sampah lingkungan, sampah ini dapat dibagi menjadi 2 yaitu
+                    </p>
+                  <a href="{{ route('detail.create', 'bentuknya') }}" class="btn btn-outline-success d-flex justify-content-center">Selengkapnya</a>
+                </div>
+              </div>
+        </div>
 
       </div>
       <div class="swiper-button-next"></div>
