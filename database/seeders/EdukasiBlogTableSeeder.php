@@ -20,8 +20,17 @@ class EdukasiBlogTableSeeder extends Seeder
         [
             'title' => 'Sumbernya',
             'slug' => 'sumbernya',
-            'description' => '',
+            'description' => '<p>Sampah manusia berupa sisa pengolahan dari makanan dan perlengkapan rumah tangga yang biasa dibuang oleh seseorang atau banyak, sampah ini banyak menumpuk karena kebutuhan sehari-hari manusia.
+            </p>',
             'picture' => 'img/testPicture.png',
+            'created_at' => date('Y-m-d H:i:s', time()),
+            'updated_at' => date('Y-m-d H:i:s', time())
+        ]
+        [
+            'title' => 'Sifatnya',
+            'slug' => 'Sifatnya',
+            'description' => '',
+            'picture' => 'img/item-1.png',
             'created_at' => date('Y-m-d H:i:s', time()),
             'updated_at' => date('Y-m-d H:i:s', time())
         ]
