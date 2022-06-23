@@ -36,7 +36,7 @@ class EdukasiBlogTableSeeder extends Seeder
             <br><br>Sampah anorganik merupakan sampah yang tidak dapat diurai, dalam hal ini tidak mudah membusuk bahkan tidak bisa membusuk seperti plastik, kaleng, gelas kaca. Beberapa sampah anorganik dapat didaur ulang atau dijual seperti plastik, kaca, kertas, dan karton.
             Sampah beracun merupakan limbah dari bahan-bahan yang berbahaya 
             </p>',
-            'picture' => 'img/sifat-organik.png',
+            'picture' => 'img/sifat-organik.jpg',
             'created_at' => date('Y-m-d H:i:s', time()),
             'updated_at' => date('Y-m-d H:i:s', time())
         ],

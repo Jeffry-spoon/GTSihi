@@ -201,6 +201,30 @@
                 </div>
               </div>
         </div>
+        <div class="col-lg-4 col-md-6 col-12 swiper-slide" >
+             <div class="card " >
+              <img src="{{ asset('img/card-2.png') }}" class="card-img-top" alt="edukasi">
+                <div class="card-body">
+                 <h5 class="card-title mt-2"> Berdasarkan Sifatnya</h5>
+                  <p class="card-text" >
+                    Sampah organik merupakan sampah yang dapat diurai dimana hal ini sampah yang mudah membusuk seperti daging, sayuran, daun-daun kering, dan sebagainya. Sampah ini mudah diolah menjadi kompos untuk tumbuhan.
+                    </p>
+                  <a href="{{ route('detail.create', 'sifatnya') }}" class="btn btn-outline-success d-flex justify-content-center">Selengkapnya</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 swiper-slide" >
+             <div class="card " >
+              <img src="{{ asset('img/card-1.png') }}" class="card-img-top" alt="edukasi">
+                <div class="card-body">
+                 <h5 class="card-title mt-2"> Berdasarkan sumbernya </h5>
+                  <p class="card-text" >
+                    Sampah manusia berupa sisa pengolahan dari makanan dan perlengkapan rumah tangga yang biasa dibuang oleh seseorang atau banyak, sampah ini banyak menumpuk karena kebutuhan sehari-hari manusia.
+                    </p>
+                  <a href="{{ route('detail.create', 'sumbernya') }}" class="btn btn-outline-success d-flex justify-content-center">Selengkapnya</a>
+                </div>
+              </div>
+        </div>
 
       </div>
       <div class="swiper-button-next"></div>
