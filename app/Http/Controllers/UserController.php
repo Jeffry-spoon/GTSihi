@@ -43,6 +43,6 @@ class UserController extends Controller
         }
 
         Auth::login($user, true);
-        return redirect('home');
+        return redirect('/');
     }
 }
