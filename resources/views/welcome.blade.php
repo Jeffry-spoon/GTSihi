@@ -152,18 +152,20 @@
          <!-- Swiper -->
     <div class="container swiper mySwiper">
       <div class=" container swiper-wrapper ">
-        @for ( $i = 0 ; $i < 3 ; $i++)
+
         <div   div class="col-lg-4 col-md-6 col-12 swiper-slide" >
              <div class="card " >
-              <img src="assets/img/Nathan.png" class="card-img-top" alt="edukasi">
+              <img src="{{ asset('img/testPicture.png') }}" class="card-img-top" alt="edukasi">
                 <div class="card-body">
-                 <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-outline-success d-flex justify-content-center">Go somewhere</a>
+                 <h5 class="card-title mt-2">Card title</h5>
+                  <p class="card-text" >
+                    Sampah manusia berupa sisa pengolahan dari makanan dan perlengkapan rumah tangga yang biasa dibuang oleh seseorang atau banyak, sampah ini banyak menumpuk karena kebutuhan sehari-hari manusia.
+                    </p>
+                  <a href="{{ route('detail.create', 'sumbernya') }}" class="btn btn-outline-success d-flex justify-content-center">Go somewhere</a>
                 </div>
               </div>
         </div>
-        @endfor
+
       </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>

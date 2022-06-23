@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\User\DetailPageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,6 +25,13 @@ Route::get('TentangKami' , function(){
 Route::get('Edukasi' , function(){
     return view('edukasi');
 })->name('edukasi');
+
+// Route::get('DetaiPage/{edukasiPage:slug}', function() {
+//     return view('detailPage');
+// })->name('detail');
+
+Route::get('detailPage/{edukasiBlog:slug}', [DetailPageController::class, 'create'])->name('detail.create');
+
 
 // socialite routes
 Route::get('sign-in-google', [UserController::class, 'google'])->name('user.login.google');
