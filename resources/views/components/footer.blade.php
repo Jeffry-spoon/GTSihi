@@ -18,16 +18,16 @@
               <h6 class="text-uppercase fw-bold">Products</h6>
               <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 100px; background-color: white; height: 2px" />
               <p>
-                <a href="#!" class="text-white">Laravel</a>
+                <a href="https://laravel.com/" class="text-white">Laravel</a>
               </p>
               <p>
-                <a href="#!" class="text-white">HTML</a>
+                <a href="https://www.w3schools.com/html/default.asp" class="text-white">HTML</a>
               </p>
               <p>
-                <a href="#!" class="text-white">CSS</a>
+                <a href="https://www.w3schools.com/css/default.asp" class="text-white">CSS</a>
               </p>
               <p>
-                <a href="#!" class="text-white">javascript</a>
+                <a href="https://www.w3schools.com/js/default.asp" class="text-white">javascript</a>
               </p>
             </div>
             <!-- Grid column -->
@@ -38,16 +38,13 @@
               <h6 class="text-uppercase fw-bold">Useful Links</h6>
               <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 120px; background-color: white; height: 2px" />
               <p>
-                <a href="LandingPage.html" class="text-white">Beranda</a>
+              <a class="text-white" href="{{ route('home') }}">Home</a>
               </p>
               <p>
-                <a href="EdukasiPage.html" class="text-white">Edukasi</a>
+              <a class="text-white" href="{{ route('edukasi') }}">Tentang kami</a>
               </p>
               <p>
-                <a href="credits.html" class="text-white">Tentang Kami</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Help</a>
+              <a class="text-white" href="{{ route('tentang_kami') }}">Tentang kami</a>
               </p>
             </div>
             <!-- Grid column -->
