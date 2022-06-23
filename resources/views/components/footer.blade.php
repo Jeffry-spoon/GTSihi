@@ -41,7 +41,7 @@
               <a class="text-white" href="{{ route('home') }}">Home</a>
               </p>
               <p>
-              <a class="text-white" href="{{ route('edukasi') }}">Tentang kami</a>
+              <a class="text-white" href="{{ route('edukasi') }}">Edukasi</a>
               </p>
               <p>
               <a class="text-white" href="{{ route('tentang_kami') }}">Tentang kami</a>
