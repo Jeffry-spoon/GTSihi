@@ -8,7 +8,7 @@
             <!-- Grid column -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <!-- Content -->
-              <img src="{{ asset('img/logo-sihi.png') }}" style="width: 250px; padding-right: 100px; padding-left: -100px" />
+              <img src="{{ asset('img/logo_sihi.png') }}" style="width: 250px; padding-right: 100px; padding-left: -100px" />
             </div>
             <!-- Grid column -->
 

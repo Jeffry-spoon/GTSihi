@@ -27,9 +27,6 @@
                     <img src="https://ui-avatars.com/api/?name=admin"class="user-photo" alt="">
                 @endif
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="right: 0; left:auto">
-                    <li>
-                        <a href="{{ route('dashboard') }}"class="dropdown-item">My Dashboard</a>
-                    </li>
 
                     @if (Auth::user()->is_admin)
                      <li>

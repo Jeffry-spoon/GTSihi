@@ -23,7 +23,7 @@
               <a href="https://www.facebook.com/eunikehi" class=" me-4">
                 <i class="bx bxl-facebook-circle"></i>
               </a>
-              <a href="https://www.instagram.com/eunikehi/" class=" me-4">
+              <a href="https://www.instagram.com/eunikehi/" target="_blank" class=" me-4">
                 <i class="bx bxl-instagram"></i>
               </a>
               <a href="https://www.linkedin.com/in/eunikehi/" class=" me-4">
@@ -44,16 +44,22 @@
             <div class="postcard__subtitle small"><i class="bx bx-male"></i> Mahasiswa Sistem Informasi 2020</div>
             <div class="postcard__bar"></div>
             <ul class="postcard__tagbox">
-              <a href="" class=" me-4">
+              <a href="mailto:jeffryacai@gmail.com" class=" me-4">
                 <i class="bx bxl-google"></i>
               </a>
-              <a href="" class=" me-4">
+               <a href="#" class=" me-4">
+                <i class="bx bxl-twitter"></i>
+              </a>
+              <a href="#" class=" me-4">
+                <i class="bx bxl-facebook-circle"></i>
+              </a>
+              <a href="https://www.instagram.com/" class=" me-4">
                 <i class="bx bxl-instagram"></i>
               </a>
-              <a href="" class=" me-4">
+              <a href="https://www.linkedin.com/in/jeffrytjn/" class=" me-4">
                 <i class="bx bxl-linkedin-square"></i>
               </a>
-              <a href="" class=" me-4">
+              <a href="https://github.com/" class=" me-4">
                 <i class="bx bxl-github"></i>
               </a>
             </ul>
